@@ -1,0 +1,148 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {  
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:rgba(114, 199, 150, 0.9);
+}
+header{
+  position: fixed;
+  width: 100%;
+  background-color: rgba(61, 146, 163, 0.9);
+  height: 65px;
+  top: 0;
+  z-index: 10;
+}
+.logo-header{
+    float: left;
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 20px 30px;
+}
+.header-right{
+    margin-left: 600px;
+}
+.header-right li a{
+    float: left;
+    color: white;
+    padding: 20px 20px;
+}
+.cari{
+    width: 20%;
+    padding: 15px 80px;
+}
+.container{
+    width:1170px;
+    margin:auto;
+    background-color:lightblue;
+
+}
+.top-wrapper{
+    /* background-image: url("./images/bd.jpeg"); */
+    background-size: cover;
+    padding: 180px 0 100px 0;
+    height: 500px;
+    color:white;
+}
+.top-profile{
+    border-radius: 15px;
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 450px;
+    width: 40%;
+}
+.explanation{
+    background-color: rgb(45, 110, 139);
+    border-radius: 15px;
+    float: left;
+    width: 40%;
+    height: 450px;
+    margin-right: 5%;
+}
+.desc{
+    padding: 30px 25px;
+    text-align: justify;
+}
+span{
+    color:tomato;
+    font-size: 25px;
+    font-weight: bold;
+}
+.item-photo{
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0.7;
+    border: 2px solid rgb(35, 5, 53);
+    padding: 20px 0;
+}
+.message-wrapper{
+    background-image: url("./images/bd.jpeg");
+    background-size: cover;
+    margin-top: 50px;
+    height: 600px;
+    opacity: 0.7;
+    font-weight: bold;
+   
+}
+.message-wrapper{
+    width:1170px;
+    /* padding:0 ; */
+    margin:auto;
+}
+.message{
+    padding:20px 50px;
+    font-size: 32px;
+
+}
+.form{
+    padding:50px 50px; 
+    float: left; 
+    margin-right: 90px;
+}
+.form p{
+    margin-top: 20px;
+    font-size: 26px;
+}
+input{
+    width: 400px;
+    height: 60px;
+    margin-top: 5px;
+}
+.photo-message img{
+    height: 450px;
+    width: 500px;
+    float: left;
+    opacity: 0.6;
+    border-radius: 50%;
+    border: 10px solid palegoldenrod;
+}
+footer{
+    background-color: teal;
+    height: 100px;
+    color: white;
+}
+.logo-footer{
+    float: left;
+    width: 50px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 20px 0;
+}
+.footer-right{
+    float: right;
+    padding:40px 0;
+}
+#galeri{
+    padding-bottom: 120px;
+  }
